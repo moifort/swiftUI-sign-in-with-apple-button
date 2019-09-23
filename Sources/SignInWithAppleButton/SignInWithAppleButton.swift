@@ -8,7 +8,9 @@ public struct SignInWithAppleButton : View {
     
     @Environment(\.colorScheme) var colorScheme: ColorScheme
 
-    var body: some View {
+    public init() {}
+
+    public var body: some View {
        AppleSignInButtonView(type: type,
                              style: style == nil ? self.colorScheme == .dark ? .white : .black : style!)
            .frame(height: 50, alignment: .center).padding(.all)
