@@ -1,3 +1,6 @@
+import SwiftUI
+import AuthenticationServices
+
 @available(iOS 13.0, *)
 public struct SignInWithAppleButton : View {
     var type : ASAuthorizationAppleIDButton.ButtonType = .default
