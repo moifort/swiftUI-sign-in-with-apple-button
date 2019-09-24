@@ -1,3 +1,4 @@
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/moifort/swiftUI-sign-in-with-apple-button)
 # Sign In With Apple Button for SwiftUI
 
 ![sample](./static/sample.png)
